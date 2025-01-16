@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While2</title>
+</head>
+<body><script>var ulangi = confirm("Tekan lagi?");
+    var counter = 0;
+
+    while (ulangi) {
+    var jawab = confirm("Tekan lagi?")
+        counter++;
+        if (jawab == false) {
+            ulangi = false;
+            }
+        }
+
+    document.write("Anda sudah menekan " + counter + " kali");</script>
+    
+</body>
+</html>

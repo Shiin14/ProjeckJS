@@ -1,0 +1,7 @@
+const mahasiswa1 = ['sarip', 'rizqi', 'angga'];
+const mahasiswa2 = ['sarip', 'rizqi', 'angga'];
+console.log(mahasiswa1 === mahasiswa2); // false
+
+const binatang1 = ['badak', 'buaya', 'paus'];
+const binatang2 = binatang1;
+console.log(binatang1 === binatang2); // true

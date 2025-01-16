@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF ELSE IF</title>
+</head>
+<body>
+    <script>
+        var nilai = prompt("Inputkan Nilai PAS Pemrograman Dasar Anda:");
+        var grade = "";
+
+        if(nilai >= 92) grade = "Sangat Baik "
+        else if(nilai >= 84) grade = "Baik"
+        else if(nilai >= 75) grade = "Cukup"
+        else if(nilai >= 0) grade = "Kurang"
+
+        document.write(`<p>Grade Anda Adalah: ${grade}</p>`);
+    </script>
+</body>
+</html> 
