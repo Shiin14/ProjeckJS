@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case3</title>
+</head>
+<body>
+    <script>
+        var jawab = prompt("Silahkan Masukan Plat Nomor");
+        var Kendaraan = ""; 
+
+        switch(jawab){
+            case "P":
+                Kendaraan = "Pesawat";
+                break;
+            case "M":
+                Kendaraan = "Mobil";
+                break;
+            case "K":
+                Kendaraan = "Kereta";
+                break;
+            default:
+                document.write("<p>Jenis Kendaraan Tidak Dikenali</p>");
+        }
+
+        if(Kendaraan === ""){
+        } else {
+            document.write("<h2>Kendaraan Anda Adalah " + Kendaraan + "</h2>");
+        }
+    </script>
+</body>
+</html>
