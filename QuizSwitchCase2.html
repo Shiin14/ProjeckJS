@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case2</title>
+</head>
+<body>
+    <script>
+        var jawab = prompt("Silahkan Pilih Kategori A,B,atau C");
+        var Kategori = ""; 
+
+        switch(jawab){
+            case "A":
+                Kategori = "Hardware Komputer";
+                break;
+            case "B":
+                Kategori = "Buah-Buahan";
+                break;
+            case "C":
+                Kategori = "Makanan";
+                break;
+            default:
+                document.write("<p>Kategori Tidak Dikenali</p>");
+        }
+
+        if(Kategori === ""){
+        } else {
+            document.write("<h2>Anda Memilih Kategori " + Kategori + "</h2>");
+        }
+    </script>
+</body>
+</html>
