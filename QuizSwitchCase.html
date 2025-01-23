@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case 1</title>
+</head>
+<body>
+    <script>
+        var jawab = prompt("Masukan nomor ");
+        var BUlan = ""; 
+
+        switch(jawab){
+            case "1":
+                Bulan = "januari";
+                break;
+            case "2":
+                Bulan = "Februari";
+                break;
+            case "3":
+                Bulan = "Maret";
+                break;
+            case "4":
+                Bulan = "April";
+                break; 
+            case "5":
+                Bulan = "Mei";
+                break;
+            case "6":
+                Bulan = "Juni";
+                break;
+            case "7":
+                Bulan = "Juli";
+            case "8":
+                Bulan = "Agustus";
+                break;
+            case "9": 
+                Bulan = "September";
+                break;
+            case "10":
+                BUlan = "Oktober";
+                break;
+            case "11":
+                Bulan = "November";
+                break;
+            case "12": 
+                Bulan = "Desember";
+                break;
+            default:
+                document.write("<p>Maaf! Tidak Ada Pilihan!</p>");
+        }
+
+        if(Bulan === ""){
+        } else {
+            document.write("<h2>Bulan " + Bulan + "</h2>");
+        }
+    </script>
+</body>
+</html>
