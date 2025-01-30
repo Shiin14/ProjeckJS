@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var angka1 = prompt("masukan angka pertama = ");
+        var angka2 = prompt("masukan angka kedua = ");
+        var logika = prompt('masukan operator yang ingin di gunakan = x,+,-,:')
+        num1 = parseInt(angka1)
+        num2 =  parseInt(angka2)
+        
+
+        let penjumlahan = num1+num2;
+        let pengurangan = num1-num2;
+        let perkalian = num1*num2;
+        let pembagian = num1/num2;
+
+        if(logika == "x"){
+            document.write("hasil dari " + angka1 + " x " +angka2+ " = " +perkalian);
+        }else if(logika == "+"){
+            document.write("hasil dari " + angka1 + " + " +angka2+ " = " +penjumlahan);
+        }else if(logika == "-"){
+            document.write("hasil dari " + angka1 + " + " +angka2+ " = " +pengurangan);
+        }else if(logika == ":"){
+            document.write("hasil dari " + angka1 + " : " +angka2+ " = " +pembagian);
+        }
+        dcument.write("<p>coba lagi?</p>");
+    </script>
+</body>
+</html>
