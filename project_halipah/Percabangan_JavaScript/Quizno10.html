@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const input = prompt('Masukkan angka:');
+        const number = parseFloat(input);
+
+        if (isNaN(number)) {
+        document.write('Harap masukkan angka yang valid.');
+        } else if (number > 0) {
+        document.write(`${number} adalah angka positif.`);
+        } else if (number < 0) {
+        document.write(`${number} adalah angka negatif.`);
+        } else {
+        document.write('Angka tersebut adalah nol.');
+        }
+    </script>
+</body>
+</html>
